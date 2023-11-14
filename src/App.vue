@@ -1,18 +1,15 @@
 <template>
 	<the-header></the-header>
-	<!-- <find-coach></find-coach> -->
-	<!-- <coach-registration></coach-registration> -->
-	<!-- <coach-filter></coach-filter> -->
+
 	<router-view></router-view>
 </template>
 
 <script>
 	import TheHeader from './components/layout/TheHeader.vue';
-	// import FindCoach from './components/coaches/FindCoach.vue';
+
 	export default {
 		components: {
 			'the-header': TheHeader,
-			// FindCoach,
 		},
 		provide() {
 			return {
